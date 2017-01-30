@@ -1,0 +1,60 @@
+div.container{
+width: 100%;
+
+    Border: 1px solid black;
+    margin: 0;
+}
+header,footer{
+    padding: 10px;
+    color: blue;
+    background-color: yellow;
+    clear: left;
+    text-align: center;
+    margin: 0;
+}
+nav ul li{
+    height: 30px;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 5px;
+    padding: 5px;
+}
+nav ul a:hover {
+    background-color: darkblue;
+    color: orangered;
+
+}
+nav ul a:active{
+box-shadow: 0 5px ;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+nav ul li a{
+    color:black;
+    background-color: green;
+    pading: 1px;
+    border: 0px solid black;
+    margin: 5px;
+}
+
+nav ul a {
+    text-decoration:none;
+}
+
+article1 {
+    margin-left: 170px;
+    border-left: 1px dashed gray;
+    padding: 20px;
+    overflow: hidden;
+
+}
+article p2{
+    margin-left: 170px;
+
+}
